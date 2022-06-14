@@ -1,0 +1,461 @@
+
+.search-block
+
+{
+  padding: 7% 20% 0.5% 20%;
+  background-color: white;
+}
+
+#zag
+{
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 18px;
+  padding: 40px;
+}
+
+/*ФОРМА*/
+.se{
+  font-family: 'Montserrat';
+  font-size: 30px;
+  /*margin: 7% 10% 0 10%;*/
+  padding: 1.5% 3%;
+  display: table;
+  align-items: center;
+
+  background-color: #d6ebff;
+  border-radius: 15px ;
+  
+}
+
+
+.se input
+{
+  border-radius: 30px;
+  border: solid 1px rgb(168, 168, 168);
+  font-size: 18px;
+  padding: 5px 10px;
+  font-family: 'Montserrat';
+  display: block;
+  width: 100%;
+  height: 46px;
+}
+
+.se input:focus
+{
+  border-style: none;
+  border: solid 1px rgb(13, 0, 70);
+}
+
+.se select
+{
+  border-radius: 30px;
+  border: solid 1px rgb(168, 168, 168);
+  font-size: 18px;
+  padding: 5px 10px;
+  font-family: 'Montserrat';
+  display: block;
+  width: 100%;
+  height: 46px;
+}
+.se div
+{
+  width: 47.6%;
+  display: inline-block;
+  padding: 5px 8px;
+}
+
+.se label
+{
+  font-size: 18px;
+}
+
+div .forsubmit
+{
+width: 100%;
+display: flex;
+justify-content: center;
+padding: 10px;
+}
+
+.se input[type="submit"]
+{
+  width: 50%;
+  font-weight: 700;
+  color: white;
+  background-color: #157ee0;
+}
+
+
+.se input[type="submit"]:hover
+{
+  background-color: #116bbe;
+  color: rgb(231, 231, 231);
+}
+
+.se input[type="submit"]:active
+{
+  background-color: #00208a;
+  color: rgb(231, 231, 231);
+}
+
+div .okmessage
+{
+width: 100%;
+display: flex;
+justify-content: center;
+padding: 10px;
+font-size: 20px;
+font-weight: 500;
+visibility: hidden;
+display: none;
+}
+
+div .errormessage
+{
+width: 100%;
+display: flex;
+justify-content: center;
+padding: 10px;
+font-size: 20px;
+font-weight: 500;
+visibility: hidden;
+display: none;
+}
+
+
+
+
+/*RESULTS*/
+.resultarea
+{
+    background-color: #ffffff;
+    padding: 0% 22% 4% 20%;
+}
+
+.flycard
+{
+    border-radius: 25px;
+    border: solid 2px #d6ebff;
+  padding: 0% 2% 0.5% 2%;
+  /* display: inline-block; */
+  width: 98%;
+  display: block;
+  margin-bottom: 1%;
+}
+
+
+.flycard .route
+{
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: -0.6%;
+  margin-right: 55%;
+  margin-left: 2%;
+}
+
+.flycard .date
+{
+  font-size: 16px;
+  font-weight: 400;
+  
+  margin-top: -0.6%;
+  margin-right: 56%;
+}
+
+.flycard .cost
+{
+  font-size: 20px;
+  font-weight: 700;
+  
+}
+
+.flycard .free, .flycard .free2
+{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.inl
+{
+    margin-top: 1%;
+    width: 100%;
+}
+.zag
+{
+  font-size: 28px;
+  font-weight: 700;
+  padding: 0 2%;
+}
+
+.free, .free2
+{
+  cursor: pointer;
+}
+
+.flycard .publicdate
+{
+  font-size: 12px;
+  font-weight: 500;
+  color: #7cabd8;
+  margin-top: -1%;
+}
+
+.buy
+{
+  background-color: darkblue;
+  border-radius: 16px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0.8%;
+  margin: 0.5%;
+  position: relative;
+  text-align: center;
+  transition: color 500ms;
+  user-select: none;
+  border: solid 1px #fff;
+  margin-top: -2%;
+}
+
+.buy:hover
+{
+  background-color: #ffffff;
+  color: darkblue;
+  border: solid 1px rgb(168, 168, 168);
+}
+
+.brone
+{
+  background-color: #d6ebff;
+  border-radius: 16px;
+  color: #000000;
+  cursor: pointer;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0.8%;
+  margin: 0.5%;
+  position: relative;
+  text-align: center;
+  transition: color 500ms;
+  user-select: none;  
+  border:none;
+  margin-top: -2%;
+}
+
+.brone:hover
+{
+  background-color: #74b5f1;
+  color: rgb(255, 255, 255);
+}
+
+
+.btarea
+{
+  width: 100%;
+  text-align: right;
+  margin-top: -2%;
+}
+
+/***************************/
+.oops
+{
+  text-align: center;
+}
+
+
+/*//////////////////////////*/
+
+.popular-block
+{
+  
+  margin-top: 10%;
+  display: flex;
+
+}
+
+#popzag
+{
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 18px;
+}
+
+.popular-block .text
+{
+  width: 50%;
+
+}
+
+.popular-block .text a
+{
+  font-weight: 400;
+  font-size: 26px;
+  margin-bottom: 18px;
+  text-decoration: underline;
+  line-height: 40px;
+  color: #2f6ca5;
+}
+
+.popular-block .text a:hover
+{
+  text-decoration: none;
+  color: #083b6b;
+}
+
+
+.popular-block .text a::before
+{
+  font-family: 'FontAwesome';
+ content: "\f072 \20";
+}
+
+.popular-block img
+{
+  width: 50%;
+}
+
+
+/*покупка бронь*/
+#pl
+{
+  margin-left: -5%;
+}
+
+/*форма покупки или брони*/
+.divform, .divform2
+{
+  position: fixed;
+  margin-top: -20%;
+  margin-left: -1%;
+  width: 101%;
+  height:101%;
+  background-color: #d6ebff7a;
+  backdrop-filter: blur(5px);
+  z-index: 850;
+  visibility: hidden;
+}
+
+.got {
+  width: 60%;
+  font-size: 20px;
+  position: fixed;
+  margin: 2% 18%;
+  z-index: 870;
+  background-color: #fff;
+  font-family: 'Montserrat';
+  font-size: 30px;
+  /*margin: 7% 10% 0 10%;*/
+  padding: 1.5% 3%;
+  display: table;
+  align-items: center;
+  border-radius: 15px ;
+ }
+
+.got input
+{
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  font-family: 'Montserrat';
+  display: block;
+  background-color: #fff;
+}
+
+.got input:disabled
+{
+  color: #000000;
+}
+
+
+
+.got input:focus
+{
+  border-style: none;
+  border: solid 1px rgb(13, 0, 70);
+}
+
+.got div
+{
+  display: inline-block;
+}
+
+.got label
+{
+  font-size: 18px;
+  font-weight: 600;
+  display: inline;
+}
+
+div .forsubmit
+{
+width: 100%;
+display: flex;
+justify-content: center;
+padding: 10px;
+}
+
+.got input[type="submit"]
+{
+  width: 50%;
+  font-weight: 700;
+  color: white;
+  background-color: #157ee0;
+}
+
+
+.got input[type="submit"]:hover
+{
+  background-color: #116bbe;
+  color: rgb(231, 231, 231);
+}
+
+.got input[type="submit"]:active
+{
+  background-color: #00208a;
+  color: rgb(231, 231, 231);
+}
+
+
+ rect :hover
+ {
+   fill:cornflowerblue;
+ }
+
+.bron {
+  background: #140c83 ;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  display: inline-block;
+  text-align: center;
+  line-height: 46px;
+ 
+  transition: .5s;
+  border-radius: 20px;
+  border: none;
+  font-family: 'Montserrat';
+  font-weight: 400;
+ }
+ .bron:hover,
+ .bron:focus {
+   background-color: #95c4e4;
+   font-family: 'Montserrat';
+   
+ }
+
+ .bron:hover:disabled,
+ .bron:focus:disabled {
+   background-color: #7f7f7f;
+   font-family: 'Montserrat';
+   
+ }
+
+ .bron:disabled {
+    background-color: #7f7f7f;
+    font-family: 'Montserrat';
+  }

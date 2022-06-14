@@ -1,0 +1,313 @@
+
+.lk-block
+
+{
+  padding: 7% 20% 0.5% 20%;
+  background-color: white;
+}
+
+#zag
+{
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 18px;
+  padding: 40px;
+}
+
+#ss
+{
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 18px;
+  padding: 40px;
+  margin-left: 20%;
+  text-decoration: underline;
+  color: darkblue;
+}
+
+#ss::after
+{
+  font-family: 'FontAwesome';
+  font-size: 16px;
+  font-weight: 400;
+  content: "\f061";
+}
+
+
+#nouser
+{
+    margin-top: 20%;
+    margin-bottom: 5%;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+
+#isuser
+{
+    margin-top: 1%;
+    margin-bottom: 5%;
+    width: 75%;
+    padding: 5% 25% 5% 25%;
+}
+
+
+input
+{
+  border-radius: 30px;
+  border: solid 1px rgb(168, 168, 168);
+  font-size: 18px;
+  padding: 5px 10px;
+  font-family: 'Montserrat';
+  display: block;
+  width: 50%;
+  height: 46px;
+}
+
+input:focus
+{
+  border-style: none;
+  border: solid 1px rgb(13, 0, 70);
+}
+
+input:disabled
+{
+  border-radius: 30px;
+  border: solid 1px rgb(0, 0, 0);
+  font-size: 18px;
+  padding: 5px 10px;
+  font-family: 'Montserrat';
+  display: block;
+  width: 50%;
+  height: 46px;
+  background-color: rgb(220, 220, 220);
+}
+
+input[type="password"]
+{
+  border-radius: 30px;
+  border: solid 2px rgb(2, 45, 184);
+  font-size: 18px;
+  padding: 5px 10px;
+  font-family: 'Montserrat';
+  display: block;
+  width: 50%;
+  height: 46px;
+}
+
+.save
+{
+  background-color: #d6ebff;
+  border-radius: 16px;
+  color: #000000;
+  cursor: pointer;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0.8% 1.7%;
+  margin-top: 0.5%;
+  margin-left: 37%;
+  position: relative;
+  text-align: center;
+  transition: color 500ms;
+  user-select: none;  
+  border:none;
+}
+
+.save:hover
+{
+  background-color: #74b5f1;
+  color: rgb(255, 255, 255);
+}
+
+
+.error_c {
+  font-size: 12px;
+  color: #b52525;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 5%;
+}
+
+
+.exit {
+  background-color: darkblue;
+  border-radius: 26px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 700;
+  right: 0;
+  margin-top: 3%;
+  margin-left: 20%;
+  padding: 0.8% 1.7%;
+  position: relative;
+  text-align: center;
+  transition: color 500ms;
+  display: inline-block;
+  border: solid 1px #fff;
+}
+
+.exit:hover {
+  background-color: #ffffff;
+  color: darkblue;
+  
+  border: solid 1px rgb(168, 168, 168);
+}
+
+.exit:active {
+  background-color: #d6ebff;
+}
+
+.exit:before {
+  font-family: 'FontAwesome';
+  font-size: 16px;
+  font-weight: 400;
+  content: "\f007";
+}
+
+
+/**/
+
+
+.resultarea
+{
+    background-color: #ffffff;
+    padding: 4% 0% 4% 0%;
+}
+
+.ticketcard
+{
+    border-radius: 25px;
+    border: solid 2px #d6ebff;
+  padding: 0% 2% 0.5% 2%;
+  /* display: inline-block; */
+  width: 98%;
+  display: block;
+  margin-bottom: 1%;
+}
+
+
+.ticketcard .route
+{
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: -0.6%;
+  margin-right: 55%;
+  margin-left: 2%;
+}
+
+.ticketcard .date
+{
+  font-size: 19px;
+  font-weight: 500;
+  
+  margin-top: -0.6%;
+  margin-right: 56%;
+}
+
+.ticketcard .cost
+{
+  font-size: 20px;
+  font-weight: 700;
+  
+}
+
+.ticketcard .free
+{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.inl
+{
+    margin-top: 1%;
+    width: 100%;
+}
+.zag
+{
+  font-size: 28px;
+  font-weight: 700;
+  padding: 0 2%;
+}
+
+.free
+{
+  cursor: pointer;
+}
+
+.ticketcard .publicdate
+{
+  font-size: 12px;
+  font-weight: 500;
+  color: #7cabd8;
+  margin-top: -1%;
+}
+
+.buy, .print
+{
+  background-color: darkblue;
+  border-radius: 16px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0.8%;
+  margin: 0.5%;
+  position: relative;
+  text-align: center;
+  transition: color 500ms;
+  user-select: none;
+  border: solid 1px #fff;
+  margin-top: -2%;
+}
+
+.buy:hover, .print:hover
+{
+  background-color: #ffffff;
+  color: darkblue;
+  border: solid 1px rgb(168, 168, 168);
+}
+
+.brone
+{
+  background-color: #d6ebff;
+  border-radius: 16px;
+  color: #000000;
+  cursor: pointer;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0.8%;
+  margin: 0.5%;
+  position: relative;
+  text-align: center;
+  transition: color 500ms;
+  user-select: none;  
+  border:none;
+  margin-top: -2%;
+}
+
+.brone:hover
+{
+  background-color: #74b5f1;
+  color: rgb(255, 255, 255);
+}
+
+
+.btarea
+{
+  width: 100%;
+  text-align: right;
+  margin-top: -2%;
+}
+
+/***************************/
+.oops
+{
+  text-align: center;
+}

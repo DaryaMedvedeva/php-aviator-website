@@ -1,0 +1,195 @@
+.dws-wrapper {
+ width: 50%;
+ font-size: 20px;
+ visibility: hidden;
+ position: fixed;
+ margin: 9% 25%;
+ z-index: 959;
+}
+
+.dws-form {
+ background-color: #ffffff;
+ border-radius: 35px;
+ padding: 10px;
+}
+
+.dws-form a {
+ text-decoration: none;
+ transition: .5s;
+ color: #ffffff;
+}
+
+.dws-form a:hover {
+ color: #313fb9;
+}
+
+.dws-form ul {
+ list-style: none;
+ padding: 0;
+ margin: 0;
+}
+
+.dws-form input {
+ display: block;
+ width: 100%;
+}
+
+.tab-form {
+ background-color: #ffffff;
+ display: none;
+ padding: 5% 5%;
+ justify-content: center;
+ align-items: center;
+}
+
+/*открыть форму на css*/
+.tab-form.active,
+#tab-1:checked ~ #form-1,
+#tab-2:checked ~ #form-2 {
+ display: block;
+ padding: 5% 5%;
+}
+
+label.tab {
+ color: #272729;
+ font-weight: 500;
+ padding: 15px;
+ margin: 0 12%;
+ display: inline-block;
+ border-radius: 3px 3px 0 0;
+ margin-bottom: -1px;
+ cursor: pointer;
+}
+
+
+label.tab.active,
+input[name="tabs"]:checked + label {
+ background-color: #ffffff;
+ color: #000000;
+ font-weight: 700;
+}
+
+input[name="tabs"] {
+ display: none;
+}
+
+
+
+/*форма*/
+#reg.input {
+ font-size: 14px;
+ border: 2px solid #e9eaea;
+ padding: 12px 14px;
+ box-sizing: border-box;
+ margin-bottom: 22px;
+ color: #140c83;
+ outline: none;
+}
+
+.error {
+    font-size: 12px;
+    color: #b52525;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5%;
+}
+
+.error2 {
+  font-size: 12px;
+  color: #b52525;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 5%;
+}
+
+#forg{
+ margin-top: 10px;
+ display: block;
+ color: #140c83;
+ font-size: 12px;
+ text-align: center;
+}
+
+.box-input {
+  
+ position: relative;
+ width: 70%;
+ 
+}
+
+.box-input input {
+  border-radius: 30px;
+  border: solid 1px rgb(168, 168, 168);
+  font-size: 18px;
+  padding: 5px 10px;
+  font-family: 'Montserrat';
+  display: block;
+  width: 100%;
+  height: 46px;
+}
+
+.box-input input:focus {
+  border-style: none;
+  border: solid 1px rgb(13, 0, 70);
+ }
+ 
+ .box-input input[type="password"] {
+  border-radius: 30px;
+  border: solid 1px rgb(168, 168, 168);
+  font-size: 18px;
+  padding: 5px 10px;
+  font-family: 'Montserrat';
+  display: block;
+  width: 100%;
+  height: 46px;
+ }
+ 
+
+/*кнопкa */
+a.button {
+ background: #140c83 ;
+ color: #ffffff;
+ font-size: 17px;
+ font-weight: 500;
+ letter-spacing: 0.08em;
+ display: block;
+ text-align: center;
+ line-height: 46px;
+margin: 3% 15%;
+ transition: .5s;
+ border-radius: 15px;
+}
+a.button:hover,
+a.button:focus {
+  background-color: #95c4e4;
+  ;
+}
+
+
+
+
+
+.tab-form input
+{
+  border-radius: 30px;
+  border: solid 1px rgb(168, 168, 168);
+  font-size: 18px;
+  padding: 5px 10px;
+  font-family: 'Montserrat';
+  display: block;
+  width: 100%;
+  height: 46px;
+  margin-left: 15%;
+}
+
+.tab-form input:focus
+{
+  border-style: none;
+  border: solid 1px rgb(13, 0, 70);
+}
+
+.arules
+{
+  color: #aea5bf;
+}
+

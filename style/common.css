@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+  
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body
+{
+    background-color: #ffffff;
+    font-family: 'Montserrat';
+      margin: 0;
+      z-index: 0;
+}
+
+log
+{
+    font-family: 'Montserrat';
+    font-size: 34px;
+   margin-top: -4%;
+    font-weight: 700;
+    margin-left: 14%; margin-top: -5%;
+    vertical-align:middle;
+    margin-right: 25%;
+    color: rgb(0, 0, 0);
+}
+
+header
+{
+    width: 101.5%;
+    display: table;
+    background-color: rgba(255, 255, 255, 0.644);
+    position: fixed;
+    z-index: 999;
+    margin: 0;
+    align-items: center;  
+    height: 10%;
+    backdrop-filter: blur(2px);
+
+    
+}
+
+/* АВТОРИЗУЙТЕСЬ */
+.autorise {
+  background-color: darkblue;
+  border-radius: 26px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 1.4%;
+  right: 0;
+  left: 90;
+  margin-left: 5%;
+  margin-bottom: -1%;
+  padding: 0.8% 1.7%;
+  position: relative;
+  text-align: center;
+  transition: color 500ms;
+  display: inline-block;
+  border: solid 1px #fff;
+}
+
+.autorise:hover {
+  background-color: #ffffff;
+  color: darkblue;
+  
+  border: solid 1px rgb(168, 168, 168);
+}
+
+.autorise:active {
+  background-color: #d6ebff;
+}
+
+.autorise:before {
+  font-family: 'FontAwesome';
+  font-size: 16px;
+  font-weight: 400;
+  content: "\f007";
+}
+
+
+/*ШАПКА*/
+
+/*меню*/
+.dropbtn {
+  color: rgb(2, 26, 158);
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #ffffff00;
+}
+
+.dropbtn:hover {
+  color: rgb(68, 126, 202);
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.show {display:block;}
+
+
+/* стилизуем кнопку */
+#btlb::before
+{
+  font-family: 'FontAwesome';
+  font-size: 34px;
+  content: "\f0c9";
+}
+
+
+/*ОКНО РЕГИСТРАЦИИ*/
+#reg
+{
+  position: fixed;
+  margin-top: 0%;
+  margin-left: -1%;
+  width: 101%;
+  height:101%;
+  background-color: #d6ebff7a;
+  visibility: hidden;
+  backdrop-filter: blur(5px);
+  z-index: 900;
+}
+
+
+footer
+{
+    width: 80%;
+    display: table;
+    background-color: rgb(87, 87, 87);
+    margin: 0;
+    height: 10%;
+
+    color:#d6ebff;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 2% 10%;
+
+    
+}

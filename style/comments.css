@@ -1,0 +1,134 @@
+
+.comments
+{
+  background-color: #ffffff;
+  padding: 5% 15%;
+  font-weight: 600;
+  font-size: 22px;
+  height: auto;
+ 
+}
+
+textarea
+{
+ width: 500px;
+ height: 200px;
+ border-radius: 25px;
+  border: solid 1px rgb(168, 168, 168);
+  font-size: 18px;
+  padding: 10px 10px;
+  font-family: 'Montserrat';
+  resize: none;
+  margin-left: 5%;
+}
+
+.commentsarea
+{
+  column-count: 3;
+}
+
+.commentcard
+{
+    border-radius: 25px;
+    border: solid 2px #d6ebff;
+  padding: 0.5% 2% ;
+  /* display: inline-block; */
+  width: 98%;
+  margin: 2%;
+  display: block;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+
+.commentcard .name
+{
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: -0.6%;
+}
+
+.commentcard .text
+{
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: -0.6%;
+}
+
+.zag
+{
+  font-size: 28px;
+  font-weight: 700;
+  padding: 0 2%;
+}
+
+.commentcard .publicdate
+{
+  font-size: 12px;
+  font-weight: 500;
+  color: #7cabd8;
+  margin-top: -1%;
+}
+
+.txt
+{
+  width: 97%;
+}
+
+.pl
+{
+  width: 3%;
+}
+.pl label::after
+{
+  content: "+";
+  font-weight: 900;
+  font-size: 26px;
+  margin-top: -1%;
+}
+
+
+.oksub
+{
+  width: 50%;
+  font-weight: 700;
+  color: white;
+  background-color: #157ee0;
+  border-radius: 30px;
+  border: solid 1px rgb(168, 168, 168);
+  font-size: 18px;
+  padding: 5px 10px;
+  font-family: 'Montserrat';
+  display: block;
+  height: 46px;
+}
+
+
+.oksub:hover
+{
+  background-color: #116bbe;
+  color: rgb(231, 231, 231);
+}
+
+.oksub:active
+{
+  background-color: #00208a;
+  color: rgb(231, 231, 231);
+}
+
+
+.nosub:disabled
+{
+  width: 50%;
+  font-weight: 700;
+  color: rgb(173, 173, 173);
+  background-color: #989898;
+  border-radius: 30px;
+  border: solid 1px rgb(193, 193, 193);
+  font-size: 18px;
+  padding: 5px 10px;
+  font-family: 'Montserrat';
+  display: block;
+  height: 46px;
+  
+}

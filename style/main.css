@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+  
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.search-block
+
+{
+  padding: 16% 20% 14% 20%;
+  background-color: white;
+}
+
+#zag
+{
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 18px;
+  padding: 40px;
+}
+
+/*ФОРМА*/
+form
+{
+  font-family: 'Montserrat';
+  font-size: 30px;
+  /*margin: 7% 10% 0 10%;*/
+  padding: 1.5% 3%;
+  display: table;
+  align-items: center;
+  
+}
+
+
+#form-2 input,
+#form-1 input,
+.ser input
+{
+  border-radius: 30px;
+  border: solid 1px rgb(168, 168, 168);
+  font-size: 18px;
+  padding: 5px 10px;
+  font-family: 'Montserrat';
+  display: block;
+  width: 100%;
+  height: 46px;
+}
+
+#form-2 input:focus,
+#form-1 input:focus,
+.ser input:focus
+{
+  border-style: none;
+  border: solid 1px rgb(13, 0, 70);
+}
+
+#form-2 select,
+#form-1 select,
+.ser select
+{
+  border-radius: 30px;
+  border: solid 1px rgb(168, 168, 168);
+  font-size: 18px;
+  padding: 5px 10px;
+  font-family: 'Montserrat';
+  display: block;
+  width: 100%;
+  height: 46px;
+}
+#form-2 div,
+#form-1 div,
+.ser div
+{
+  width: 47.6%;
+  display: inline-block;
+  padding: 5px 8px;
+}
+
+#form-2 label,
+#form-1 label,
+.ser label
+{
+  font-size: 18px;
+}
+
+div .forsubmit
+{
+width: 100%;
+display: flex;
+justify-content: center;
+padding: 10px;
+}
+
+#form-1 input[type="submit"],
+#form-2 input[type="submit"],
+.ser input[type="submit"]
+{
+  width: 50%;
+  font-weight: 700;
+  color: white;
+  background-color: #157ee0;
+  font-family: 'Montserrat';
+}
+
+
+#form-1 input[type="submit"]:hover,
+#form-2 input[type="submit"]:hover,
+.ser input[type="submit"]:hover
+{
+  background-color: #116bbe;
+  color: rgb(231, 231, 231);
+}
+
+#form-1 input[type="submit"]:active,
+#form-2 input[type="submit"]:active,
+.ser input[type="submit"]:active
+{
+  background-color: #00208a;
+  color: rgb(231, 231, 231);
+}
+
+div .okmessage
+{
+width: 100%;
+display: flex;
+justify-content: center;
+padding: 10px;
+font-size: 20px;
+font-weight: 500;
+visibility: hidden;
+display: none;
+}
+
+div .errormessage
+{
+width: 100%;
+display: flex;
+justify-content: center;
+padding: 10px;
+font-size: 20px;
+font-weight: 500;
+visibility: hidden;
+display: none;
+}
+
+
+
+/*//////////////////////////*/
+
+.popular-block
+{
+  padding: 5% 20%;
+  display: flex;
+
+}
+
+#popzag
+{
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 18px;
+}
+
+.popular-block .text
+{
+  width: 50%;
+}
+
+.popular-block .text a
+{
+  font-weight: 400;
+  font-size: 26px;
+  margin-bottom: 18px;
+  text-decoration: underline;
+  line-height: 40px;
+  color: #2f6ca5;
+}
+
+.popular-block .text a:hover
+{
+  text-decoration: none;
+  color: #083b6b;
+}
+
+
+.popular-block .text a::before
+{
+  font-family: 'FontAwesome';
+ content: "\f072 \20";
+}
+
+.popular-block img
+{
+  width: 50%;
+}
+
+/****************************/
+.questions
+{
+  background-color: #d6ebff;
+  padding: 5% 15%;
+  font-weight: 600;
+  font-size: 22px;
+ 
+}
+
+.q1, .q2, .q3
+{
+  background-color: #ffffff;
+  padding: 2.3% 2% ;
+  display: flex;
+  margin-bottom: 1%;
+}
+
+.q1:hover, .q2:hover, .q3:hover
+{
+  background-color: #5887b9;
+  color: #ffffff;
+}
+
+.txt
+{
+  width: 97%;
+}
+
+.pl
+{
+  width: 3%;
+}
+.pl label::after
+{
+  content: "+";
+  font-weight: 900;
+  font-size: 26px;
+  margin-top: -1%;
+}
+
+
+.a1, .a2, .a3
+{
+  background-color: #ffffff;
+  padding: 1% 3% ;
+  margin-top: -2%;
+  display: flex;
+  margin-bottom: 1%;
+  font-size: 16px;
+  font-weight: 400;
+  display: none;
+}
+
